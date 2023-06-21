@@ -1,0 +1,38 @@
+img {
+    height: 200px;
+    background-color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.top {
+    background-color: aqua;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+
+.mid {
+    background-color: blueviolet;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 18px;
+}
+
+.down {
+    background-color: beige;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 18px;
+}
