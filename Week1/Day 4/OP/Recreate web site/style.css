@@ -1,0 +1,102 @@
+
+/* RESET TO DEFAULT */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* CONTAINER CONTENT */
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    min-height :500px;
+    background-color: #062134;
+    padding: 10px;
+}
+
+    /* NAVIGATION CONTENT */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding: 10px;
+        
+    }
+        h1{
+            font-weight: lighter;
+        }
+        span{
+            color:rgb(24, 142, 216);
+        }
+        li{
+            display: inline-block;
+            margin-left: 40px;
+        }
+        li:first-child{
+            color: rgb(27, 67, 95);
+        }
+    /* MAIN CONTENT */
+    main{
+        background-color: white;
+        padding: 10px;
+        
+    }
+        main img {
+            width: 100%;
+        }
+        /* SUB-CONTENT */
+        .sub-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+        }
+            /* Card CONTENT */
+            .card{
+                background-color: #1468a8;
+                color: white;
+                width: 30%;
+                padding: 10px;
+            }
+            .card>img {
+                width: 30px;
+                margin-top: 5px;
+            }
+            .card>h3 {
+                display: inline-block;
+                font-weight: lighter;
+                font-size: 26pt;
+            }
+            /* top-bottom and left-right */
+            .card p{
+                padding: 10px 5px;
+                margin-bottom: 10px;
+            }
+            .card button {
+                padding :10px 20px;
+                background-color: #5ca4e4;
+                color: white;
+                border: none;
+            }
+                /* testimonial content */
+                .testimonial {
+                    margin-top: 10px;
+                }
+                .flex {
+                    display: flex;
+                    /* align-items: center; */
+                    /* justify-content: space-between; */
+                    width: 65%;
+                    margin-top: 5px;
+                }
+                .flex p{
+                    margin-left: 10px;
+                }
+                .flex-2 {
+                    background-color: antiquewhite;
+                    width: 30%;
+                    min-height :100px ;
+                }
