@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>likes</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <h1>Network</h1>
+        </nav>
+        <h2 class="feedTitle">Your Feed</h2>
+        <main>  
+            <div class="userInfo">
+                <img src="assets/avatarImg.png" alt="avatar image">
+                <a href="#" class="addAvatar">Add an avatar</a>
+                <h2 class="UserName">James doe</h2>
+            </div>
+                <div class="postes">
+                    <div class="post">
+                        <section class="info">
+                            <h2>Neil M</h2>
+                            <div class="likes">
+                            <h3 ><span id="user1">9</span> like(s)</h3>
+                            <button onclick="addLikes('user1')">Like</button>
+                            </div>
+                        </section>
+                    <p>I just set this new discord bot, 
+                        let me know what you all think .<a href="#">link</a>
+                    </p>
+                </div>
+                <div class="postes">
+                    <div class="post">
+                        <section class="info">
+                            <h2>Nichole K</h2>
+                            <div class="likes">
+                            <h3 ><span id="user2">12</span> like(s)</h3>
+                            <button onclick="addLikes('user2')">Like</button>
+                            </div>
+                        </section>
+                    <p>Just finished my <a href="#">next comic</a>, check it out</p>
+                </div>
+                <div class="postes">
+                    <div class="post">
+                        <section class="info">
+                            <h2>Jim R</h2>
+                            <div class="likes">
+                            <h3><span id="user3">9</span> like(s)</h3>
+                            <button onclick="addLikes('user3')">Like</button>
+                            </div>
+                        </section>
+                    <p>I can't stop listening to the <a href="#">new album</a>. who else is liking it?</p>
+                </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
