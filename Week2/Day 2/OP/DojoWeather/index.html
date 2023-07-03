@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <h1>DojoWeather</h1>
+            <div class="states">
+                <h2 onclick="alertCity()">Burbank</h2>
+                <h2 onclick="alertCity()">Chicago</h2>
+                <h2 onclick="alertCity()">Dallas</h2>
+            </div>
+        </nav>
+        <main>
+            <div class="weatherFeed">
+                <div class="stateBar">
+                    <h2>San Jose</h2>
+                    <div class="tempChoice">
+                    <p>show temperature in</p>
+                    <select name="temperature" id="temperature" onchange="chooseUnity(this)">
+                        <option value="°C">°C</option>
+                        <option value="°F">°F</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="weatherCards">
+                    <div class="weatherCard">
+                        <h3>Today</h3>
+                        <img src="assets/some_rain.png" alt="rain">
+                        <p>some rain</p>
+                        <div class="temp">
+                            <div class="max"><span name="tempValue">24</span>°</div>
+                            <div class="min"><span name="tempValue">18</span>°</div>
+                        </div>
+                    </div>
+                    <div class="weatherCard">
+                        <h3>Today</h3>
+                        <img src="assets/some_sun.png" alt="rain">
+                        <p>some sun</p>
+                        <div class="temp">
+                            <div class="max"><span name="tempValue">27</span>°</div>
+                            <div class="min"><span name="tempValue">19</span>°</div>
+                        </div>
+                    </div>
+                    <div class="weatherCard">
+                        <h3>Today</h3>
+                        <img src="assets/some_clouds.png" alt="rain">
+                        <p>some rain</p>
+                        <div class="temp">
+                            <div class="max"><span name="tempValue">21</span>°</div>
+                            <div class="min"><span name="tempValue">16</span>°</div>
+                        </div>
+                    </div>
+                    <div class="weatherCard">
+                        <h3>Today</h3>
+                        <img src="assets/some_sun.png" alt="rain">
+                        <p>some rain</p>
+                        <div class="temp">
+                            <div class="max"><span name="tempValue">26</span>°</div>
+                            <div class="min"><span name="tempValue">21</span>°</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cookiesCard" id="cookiesCard">
+                <img src="assets/cookie.png" alt="cookie">
+                <div class="cookiesInfo">
+                    <h3>Stop! Cookie time</h3>
+                    <p>We use cookies(sadly not the edible ones) to personalize
+                        content and ads, to provide social media features and to anylyse 
+                        our traffic. <a href="#">Read more...</a>
+                    </p>
+                </div>
+                <button onclick="removeCard('cookiesCard')">I Accept</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
