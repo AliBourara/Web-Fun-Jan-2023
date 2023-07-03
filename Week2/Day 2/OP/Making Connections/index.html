@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="nav-links">
+                <li><h1 class="nav-title">Profile</h1></li>
+                <li>Home</li>
+                <li><strong>My Profile</strong></li>
+                <li>Find Connections</li>
+            </ul>
+            <button class="btnLog">Sign Out</button>
+        </nav>
+        <main>
+            <div class="info">
+                <div class="profile">
+                    <div class="cover"></div>
+                    <img id="jane" src="./assets/images/jane-m.jpg" alt="jane">
+                    <div class="data">
+                        <h2 class="Name" id="name">Jane Doe</h2>
+                        <p class ="city"><img id="icon" src="./assets/icons/map-marker.png" alt="map">Seattle</p>
+                        <div class="skills">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                        </div>
+                        <p class="edit">
+                            <button class="changeName" onclick="rename('name')"><img id="icon2" src="./assets/icons/gear.png" alt="gear">edit profile</button>
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="education">
+                    <h4>Education</h4>
+                    <div class="experience">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <h5 class="date">Dec 2019 - Mar 2020</h5>
+                        <h5 class=" languages">Triple black belt in python, MERN, and C#...</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="notif">
+                <div class="one">
+                    <h4><span class ="twoo" id="requests">2</span> Connection Requests</h4>
+                    <div class="names1">
+                        <div class ="friend1" id="friend1">
+                            <div class="indiv">
+                                <p><img style="vertical-align:middle" src="./assets/images/todd-s.jpg" alt="todd">Todd E</p>
+                            </div>
+                            <div class="yesorno">
+                                <button class="btnAdd" onclick="removeFriend('friend1'); addConnection('owened')"><img class="btnRemoveImg" src="./assets/icons/accept-circle.png" alt="y" ></button>
+                                <button class="btnRemove" onclick="removeFriend('friend1');removeConnection('requests')"><img class="btnRemoveImg" src="./assets/icons/close-circle.png" alt="n" ></button>
+                            </div>
+                        </div>
+                        <div class ="friend2" id="friend2">
+                            <div class="indiv">
+                                <p><img src="./assets/images/phil-s.jpg" alt="phil">Phil K</p>
+                            </div>
+                            <div class="yesorno">
+                                <button class="btnAdd" onclick="removeFriend('friend2');addConnection('owened')"><img class="btnRemoveImg" src="./assets/icons/accept-circle.png" alt="y"></button>
+                                <button class="btnRemove" onclick="removeFriend('friend2');removeConnection('requests')"><img class="btnRemoveImg" src="./assets/icons/close-circle.png" alt="n"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="second">
+                    <h4 class="connBar"><span class ="twoo" id="owened">418</span>Your Connections</h4>
+                    <div class="names1">
+                        <div class ="friend">
+                            <div class="indiv">
+                                <p><img src="./assets/images/adrien-s.jpg" alt="adrien">Adrien D</p>
+                            </div>
+                        </div>
+                        <div class ="friend">
+                            <div class="indiv">
+                                <p><img src="./assets/images/anne-s.jpg" alt="anne">Anne J</p>
+                            </div>
+                        </div>
+                        <div class ="friend">
+                            <div class="indiv">
+                                <p><img src="./assets/images/alayne-s.jpg" alt="alayne">Alayne T</p>
+                            </div>
+                        </div>
+                        <div class ="friend">
+                            <div class="indiv">
+                                <p><img src="./assets/images/arry-s.jpg" alt="arry">Arry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

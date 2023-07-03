@@ -1,0 +1,236 @@
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+h1 {
+    color: white;
+}
+ul {
+    
+    display: flex;
+    color: white;
+    flex: flex-start;
+    
+    align-items: center;
+    list-style-type:none;
+    margin-left: 141px;
+}
+li {
+    
+    margin: 0 20px;
+}
+
+
+.btnLog {
+    padding: 5px;
+    background-color: #16A1B8;
+    box-shadow: 2px 1px 2px black;
+    border: 1px solid black;
+    color: white;
+    margin-right: 162px;
+}
+
+
+.twoo {
+    border: 1px solid #cccccc;
+    border-radius: 45%;
+    padding: 2px 6px;
+    background-color: #cccccc ;
+    color: #333333;
+    margin-right: 5px;
+    
+}
+
+.container {
+    margin: auto;
+    padding: auto;
+    
+}
+
+
+main {
+    background-color: white;
+    padding: 10px 50px;
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+main > div {
+    margin: 20px;
+}
+.info {
+    
+    background-color: white;
+    flex: 2;
+    
+
+}
+
+.profile {
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+p > img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+#icon2 {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.data > * {
+    margin-bottom: 10px;
+}
+
+#jane {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100px;
+    position: relative;
+    top: -52px;
+    left: 36px;
+}
+
+
+
+.cover {
+    background-color: #619cb1;
+    height: 90px;
+}
+
+.data {
+    
+    position: relative;
+    top: -42px;
+    left: 36px;
+}
+
+
+.notif {
+    flex: 1;
+    background-color: white;
+    
+
+}
+
+p > img {
+    vertical-align:middle;
+}
+
+
+.view {
+    border-width: 2px;
+    border-color:gray;
+    border-top-style: solid;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+
+.one, .second{
+    background-color: white;
+    border: 2px solid gray;
+    margin: 0 ;
+
+}
+.one {
+    margin-bottom: 30px;
+}
+
+    h4{
+    
+    padding: 10px;
+    color: white;
+    background-color: #333333;
+}
+.education {
+    border: 2px solid gray;
+}
+.experience {
+    padding: 10px;
+    background-color: white;
+}
+
+.experience > *{
+    margin: 10px;
+}
+
+.date {
+    color: gray;
+}
+
+
+.friend1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.friend2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.indiv {
+    flex: flex-start;
+    margin-left: 10px;
+}
+.yesorno {
+    flex: flex-end;
+    margin-right: 10px;
+}
+.indiv > p >img {
+    border: 2px solid black;
+    width: 25px;
+    border-radius: 50%;
+
+    
+}
+
+.yesorno > img {
+    width: 25px;
+}
+.btnRemove{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+
+}
+.btnAdd{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.btnRemoveImg{
+    width: 42px;
+}
+
+.changeName{
+    border :0;
+    background-color: white;
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
